@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core';
-import loginbg from '../../images/loginbanner.jpg';
+// import loginbg from '../../images/loginbanner.jpg';
 export const styleGenerator = makeStyles(theme => ({
   textField: {
     margin: theme.spacing(1),
@@ -20,8 +20,8 @@ export const styleGenerator = makeStyles(theme => ({
     margin: theme.spacing(2),
   },
   root: {
-    backgroundImage: `url(${loginbg})`,
-    backgroundSize: 'cover',
+    // backgroundImage: `url(${loginbg})`,
+    // backgroundSize: 'cover',
     display: 'flex',
   },
 }));
